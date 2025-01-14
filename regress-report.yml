@@ -45,10 +45,11 @@ bugreports:
 - summary: |
     Мобильная версия сайта
   status: pass
+  
 - summary: |
     Совместимость с браузерами
   status: fail
-bugreports:
+bugreports: 
 - summary: |
     Совместимость с браузерами
   environment: |
