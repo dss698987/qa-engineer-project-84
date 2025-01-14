@@ -12,8 +12,6 @@ test-cases:
     Просмотр подробной информации о товаре
   status: pass
 
-bugreports: []
-
 - summary: |
     Добавление товаров в корзину
   status: fail
@@ -49,8 +47,6 @@ bugreports:
 - summary: |
     Мобильная версия сайта
   status: pass
-
-bugreports: []
 
 - summary: |
     Совместимость с браузерами
