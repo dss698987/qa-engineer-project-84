@@ -49,8 +49,7 @@ bugreports:
 - summary: |
     Совместимость с браузерами
   status: fail
-bugreports: 
-- summary: |
+bugreports: |
     Совместимость с браузерами
   environment: |
     Yandex Browser   Версия 14.12 Latest (BrowserStack, Wimdows 11), macOS Sequoia 15.2
