@@ -2,24 +2,31 @@
 - summary: |
     Тестирование поиска товаров
   status: pass
+  
 - summary: |
     Фильтрация товаров
   status: pass
+  
 - summary: |
     Просмотр подробной информации о товаре
   status: pass
+  
 - summary: |
     Добавление товаров в корзину
   status: fail
+  
 - summary: |
     Безопасность данных
   status: pass
+  
 - summary: |
     Мобильная версия сайта
   status: fail
+  
 - summary: |
     Совместимость с браузерами
   status: pass
+  
 - summary: |
     Нагрузочное тестирование
   status: fail
