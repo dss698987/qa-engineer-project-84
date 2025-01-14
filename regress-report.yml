@@ -3,19 +3,15 @@ test-cases:
   - summary: |
       Тестирование поиска товаров
     status: pass
-
   - summary: |
       Фильтрация товаров
     status: pass
-
 - summary: |
     Просмотр подробной информации о товаре
   status: pass
-
 - summary: |
     Добавление товаров в корзину
   status: fail
-
 bugreports:
 - summary: |
     Не редактируется количество товара в корзине
@@ -28,11 +24,9 @@ bugreports:
     Должно быть модальное окно с возможностью ручного ввода количества товаров
   actual-result: |
     Переход на страницу товара
-
 - summary: |
     Безопасность данных
   status: fail
-
 - summary: |
     Безопасность данных
   environment: |
@@ -43,15 +37,12 @@ bugreports:
     Должна быть форма регистрации
   actual-result: |
     Форма регистрации отсутствует
-
 - summary: |
     Мобильная версия сайта
   status: pass
-
 - summary: |
     Совместимость с браузерами
   status: fail
-
 bugreports:
 - summary: |
     Совместимость с браузерами
@@ -65,11 +56,6 @@ bugreports:
     Должна отображаться страница магазина
   actual-result: |
     Страница не отображается
-
 - summary: |
     Нагрузочное тестирование
   status: pass
-
-
-
-  
