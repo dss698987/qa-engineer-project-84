@@ -17,7 +17,7 @@ test-cases:
   status: fail
   
 bugreports:
-- summary: |
+ - summary: |
     Не редактируется количество товара в корзине
   environment: |
     Safari   Версия 18.2 (20620.1.16.11.8), macOS Sequoia 15.2
