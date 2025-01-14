@@ -17,7 +17,7 @@
 ---
 - summary: |
     Безопасность данных
-  status: fail
+  status: pass
 ---
 - summary: |
     Мобильная версия сайта
