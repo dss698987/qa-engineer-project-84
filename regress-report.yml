@@ -1,11 +1,11 @@
 ---
 test-cases:
-  - summary: |
+- summary: |
       Тестирование поиска товаров
-    status: pass
-  - summary: |
+  status: pass
+- summary: |
       Фильтрация товаров
-    status: pass
+  status: pass
 - summary: |
     Просмотр подробной информации о товаре
   status: pass
