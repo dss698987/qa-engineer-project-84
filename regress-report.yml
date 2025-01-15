@@ -28,11 +28,12 @@ bugreports:
       Должно быть модальное окно с возможностью ручного ввода количества товаров
     actual-result: |
       Переход на страницу товара
-    
+
   - summary: |
       Безопасность данных
     status: fail
-  
+
+  bugreports:
   - summary: |
       Нет формы регистрации
     environment: |
@@ -51,7 +52,8 @@ bugreports:
   - summary: |
       Совместимость с браузерами
     status: fail
-  
+
+  bugreports:
   - summary: |
       Ошибка отображения страницы
     environment: |
