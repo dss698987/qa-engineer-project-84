@@ -17,7 +17,7 @@ test-cases:
   status: fail
   
 bugreports:
- - summary: |
+- summary: |
     Не редактируется количество товара в корзине
   environment: |
     Safari   Версия 18.2 (20620.1.16.11.8), macOS Sequoia 15.2
@@ -34,7 +34,7 @@ bugreports:
   status: fail
   
 bugreports: |
- - summary: |
+- summary: |
     Нет формы регистрации
   environment: |
     Safari   Версия 18.2 (20620.1.16.11.8), macOS Sequoia 15.2
@@ -54,7 +54,7 @@ bugreports: |
   status: fail
   
 bugreports: |
- - summary: |
+- summary: |
     Ошибка отображения страницы
   environment: |
     Yandex Browser   Версия 14.12 Latest (BrowserStack, Wimdows 11), macOS Sequoia 15.2
