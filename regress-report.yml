@@ -21,13 +21,13 @@ bugreports:
       Не редактируется количество товара в корзине
     environment: |
       Safari   Версия 18.2 (20620.1.16.11.8), macOS Sequoia 15.2
-  steps-to-reproduce: |
-    1. Зайти в корзину https://hexlet-products-store.vercel.app/cart
-    2. Нажать на количество
-  expected-result: |
-    Должно быть модальное окно с возможностью ручного ввода количества товаров
-  actual-result: |
-    Переход на страницу товара
+    steps-to-reproduce: |
+      1. Зайти в корзину https://hexlet-products-store.vercel.app/cart
+      2. Нажать на количество
+    expected-result: |
+      Должно быть модальное окно с возможностью ручного ввода количества товаров
+    actual-result: |
+      Переход на страницу товара
     
 - summary: |
     Безопасность данных
