@@ -32,8 +32,6 @@ bugreports:
   - summary: |
       Безопасность данных
     status: fail
-
----    
 bugreports:
   - summary: |
       Нет формы регистрации
@@ -53,7 +51,6 @@ bugreports:
   - summary: |
       Совместимость с браузерами
     status: fail
----
 bugreports:
   - summary: |
       Ошибка отображения страницы
