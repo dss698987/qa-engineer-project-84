@@ -23,7 +23,6 @@ expected_results: >
   
 ---
 
-```yaml
 - summary: |
   Фильтрация товаров
 requirement: |
