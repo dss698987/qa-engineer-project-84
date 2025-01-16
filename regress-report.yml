@@ -15,6 +15,36 @@ test-cases:
   - summary: |
       Добавление товаров в корзину
     status: fail
+    
+  - summary: |
+      Нагрузочное тестирование
+    status: pass
+
+  - summary: |
+      Безопасность данных
+    status: fail
+    
+  - summary: |
+      Мобильная версия сайта
+    status: pass
+  
+  - summary: |
+      Совместимость с браузерами
+    status: fail
+    
+bugreports:
+  - summary: |
+      Ошибка отображения страницы
+    environment: |
+      Yandex Browser   Версия 14.12 Latest (BrowserStack, Wimdows 11), macOS Sequoia 15.2
+    steps-to-reproduce: |
+      1. Зайти на страницу live.browserstack.com
+      2. Выбрать из списка браузер Яндекс
+      3. вставить ссыдку на магазин https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+    expected-result: |
+      Должна отображаться страница магазина
+    actual-result: |
+      Страница не отображается 
   
 bugreports:
   - summary: |
@@ -29,9 +59,6 @@ bugreports:
     actual-result: |
       Переход на страницу товара
 
-  - summary: |
-      Безопасность данных
-    status: fail
 bugreports:
   - summary: |
       Нет формы регистрации
@@ -42,29 +69,4 @@ bugreports:
     expected-result: |
       Должна быть форма регистрации
     actual-result: |
-      Форма регистрации отсутствует
-    
-  - summary: |
-      Мобильная версия сайта
-    status: pass
-  
-  - summary: |
-      Совместимость с браузерами
-    status: fail
-bugreports:
-  - summary: |
-      Ошибка отображения страницы
-    environment: |
-      Yandex Browser   Версия 14.12 Latest (BrowserStack, Wimdows 11), macOS Sequoia 15.2
-    steps-to-reproduce: |
-      1. Зайти на страницу live.browserstack.com
-      2. Выбрать из списка браузер Яндекс
-      3. вставить ссыдку на магазин https://products-store-git-v2bugfixes-hexlet-components.vercel.app
-    expected-result: |
-      Должна отображаться страница магазина
-    actual-result: |
-      Страница не отображается
-    
-  - summary: |
-      Нагрузочное тестирование
-    status: pass
+      Форма регистрации отсутствует   
