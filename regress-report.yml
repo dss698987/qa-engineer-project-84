@@ -33,7 +33,7 @@ bugreports:
       Безопасность данных
     status: fail
 
-bugreports:
+new-bugreports:
   - summary: |
       Нет формы регистрации
     environment: |
