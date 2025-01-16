@@ -33,7 +33,7 @@ bugreports:
       Безопасность данных
     status: fail
 
-  bugreports:
+bugreports:
   - summary: |
       Нет формы регистрации
     environment: |
@@ -53,7 +53,7 @@ bugreports:
       Совместимость с браузерами
     status: fail
 
-  bugreports:
+bugreports:
   - summary: |
       Ошибка отображения страницы
     environment: |
