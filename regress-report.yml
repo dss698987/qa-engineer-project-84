@@ -46,7 +46,6 @@ bugreports:
     actual-result: |
       Страница не отображается 
   
-bugreports:
   - summary: |
       Не редактируется количество товара в корзине
     environment: |
@@ -59,9 +58,8 @@ bugreports:
     actual-result: |
       Переход на страницу товара
 
-bugreports:
   - summary: |
-      Нет формы регистрации
+      Нет формы регистрации и входа
     environment: |
       Safari   Версия 18.2 (20620.1.16.11.8), macOS Sequoia 15.2
     steps-to-reproduce: |
@@ -69,4 +67,4 @@ bugreports:
     expected-result: |
       Должна быть форма регистрации
     actual-result: |
-      Форма регистрации отсутствует   
+      Форма регистрации и входа отсутствует   
