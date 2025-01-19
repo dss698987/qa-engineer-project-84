@@ -20,7 +20,7 @@ test-cases:
       Удаление товаров из корзины
     status: pass    
     
- bugreports:
+bugreports:
    - summary: |
       Значительное уменьшение количества категорий товаров в каталоге
     environment: |
