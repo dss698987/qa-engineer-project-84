@@ -20,3 +20,14 @@ test-cases:
       Удаление товаров из корзины
     status: pass    
     
+ bugreports:
+ - summary: |
+      Значительное уменьшение количества категорий товаров в каталоге
+    environment: |
+      Safari Версия 18.2 (20620.1.16.11.8) MacOS Catalina 15.2
+    steps-to-reproduce: |
+      Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+    expected-result: |
+      Отображается 6 страниц с различными категориями товаров
+    actual-result: |
+      Отображется 2 страницы с товарами
