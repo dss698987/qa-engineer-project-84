@@ -15,13 +15,13 @@ test-cases:
   - summary: |
       Добавление товаров в корзину
     status: pass
-
+    
   - summary: |
       Удаление товаров из корзины
     status: pass    
     
 bugreports:
-   - summary: |
+  - summary: |
       Значительное уменьшение количества категорий товаров в каталоге
     environment: |
       Safari Версия 18.2 (20620.1.16.11.8) MacOS Catalina 15.2
