@@ -29,7 +29,7 @@
 
 - summary: |
     Оформление заказа
-  status: pass
+  status: fail
 
 - summary: |
     Очистка корзины
