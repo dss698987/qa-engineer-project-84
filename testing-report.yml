@@ -16,6 +16,10 @@
   status: pass
 
 - summary: |
+    Фильтрация товаров по наличию
+  status: fail  
+
+- summary: |
     Просмотр подробной информации о товаре
   status: pass  
   
