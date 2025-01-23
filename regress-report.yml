@@ -17,7 +17,7 @@ test-cases:
     status: pass
 
   - summary: |
-    Фильтрация товаров по наличию
+      Фильтрация товаров по наличию
     status: pass  
     
   - summary: |
